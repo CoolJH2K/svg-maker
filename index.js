@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const SVG = require("./lib/svg");
 
 class CLI {
     run () {
@@ -19,7 +20,7 @@ class CLI {
                     name: "shapeType",
                     message: "What shape would you like your logo to be?",
                     type: "list",
-                    choices: ["Circle", "Square", "Triangle"],
+                    choices: ["Circle", "Triangle", "Square"],
                 },
                 {
                     name: "shapeColor",
@@ -36,4 +37,5 @@ class CLI {
     }
 }
 
-module.exports = CLI;
+const cli = new CLI;
+cli.run();
