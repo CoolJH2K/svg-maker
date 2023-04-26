@@ -15,6 +15,7 @@ I learned a lot about how Inquirer prompts work and how they work with the FS/pr
 4. After Inquirer and FS are installed, type "node index.js" to start the application!
 ## Credits
 The people who helped me out with this:
+* https://github.com/EGARRISXN
 * https://github.com/JesseEmerson7
 ## License
 This application uses the MIT License
